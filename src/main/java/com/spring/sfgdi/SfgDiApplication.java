@@ -6,13 +6,14 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.ComponentScan;
 
-@ComponentScan(basePackages = {"com.spring.sfgdi", "com.spring.pets"})
+//@ComponentScan(basePackages = {"com.spring.sfgdi", "com.spring.pets"})
 @SpringBootApplication
 public class SfgDiApplication {
 
 	public static void main(String[] args) {
 		ApplicationContext ctx = SpringApplication.run(SfgDiApplication.class, args);
-	//	PetController
+
+		//	PetController
 		PetController petController = ctx.getBean("petController", PetController.class);
 		System.out.println("------- The Best Pet is ------");
 		System.out.println(petController.whichPetIsTheBest());
@@ -20,11 +21,12 @@ public class SfgDiApplication {
 
 		MyController myController = (MyController) ctx.getBean("myController");
 		String greeting =  myController.sayHello();
-	//	System.out.println(greeting);
+
+		//	System.out.println(greeting);
 		I18nController i18nController = (I18nController) ctx.getBean("i18nController");
 		System.out.println(i18nController.sayHello());
 
-	//	Dependency Injection and Inversion of Control
+		// Dependency Injection and Inversion of Control
 		System.out.println("**** Primary Bean ****");
 		System.out.println(myController.sayHello());
 
