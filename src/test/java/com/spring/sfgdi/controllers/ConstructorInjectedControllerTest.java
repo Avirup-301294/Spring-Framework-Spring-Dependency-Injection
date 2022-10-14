@@ -1,6 +1,7 @@
 package com.spring.sfgdi.controllers;
 
-import com.spring.sfgdi.services.ConstructorGreetingService;
+import avirup.spring.sfgdi.controllers.ConstructorInjectedController;
+import avirup.spring.sfgdi.services.ConstructorGreetingService;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

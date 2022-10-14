@@ -1,8 +1,4 @@
-package com.spring.sfgdi.services;
-
-import org.springframework.context.annotation.Primary;
-import org.springframework.context.annotation.Profile;
-import org.springframework.stereotype.Service;
+package avirup.spring.sfgdi.services;
 
 //@Profile({"ES", "default})
 //@Service("i18nService")

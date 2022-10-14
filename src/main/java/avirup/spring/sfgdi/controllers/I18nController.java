@@ -1,6 +1,6 @@
-package com.spring.sfgdi.controllers;
+package avirup.spring.sfgdi.controllers;
 
-import com.spring.sfgdi.services.GreetingService;
+import avirup.spring.sfgdi.services.GreetingService;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Controller;
 

@@ -1,6 +1,4 @@
-package com.spring.sfgdi.services;
-
-import org.springframework.stereotype.Service;
+package avirup.spring.sfgdi.services;
 
 // @Service
 public class SetterInjectedGreetingService implements GreetingService{

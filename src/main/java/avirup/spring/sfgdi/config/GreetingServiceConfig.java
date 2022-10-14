@@ -1,18 +1,15 @@
-package com.spring.sfgdi.config;
+package avirup.spring.sfgdi.config;
 
-import com.spring.pets.CatPetService;
-import com.spring.pets.DogPetService;
+import avirup.spring.sfgdi.services.*;
 import com.spring.pets.PetService;
 import com.spring.pets.PetServiceFactory;
-import com.spring.sfgdi.repositories.EnglishGreetingRepository;
-import com.spring.sfgdi.repositories.EnglishGreetingRepositoryImpl;
-import com.spring.sfgdi.services.*;
-import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.Configuration;
-import org.springframework.context.annotation.Primary;
-import org.springframework.context.annotation.Profile;
+import avirup.spring.sfgdi.repositories.EnglishGreetingRepository;
+import avirup.spring.sfgdi.repositories.EnglishGreetingRepositoryImpl;
+import avirup.spring.sfgdi.services.*;
+import org.springframework.context.annotation.*;
 
 
+@ImportResource("classpath:sfgdi-config.xml")
 @Configuration
 public class GreetingServiceConfig {
     @Bean
@@ -52,7 +49,7 @@ public class GreetingServiceConfig {
         return new PrimaryGreetingService();
     }
 
-    @Bean
+//    @Bean
     ConstructorGreetingService constructorGreetingService() {
         return new ConstructorGreetingService();
     }

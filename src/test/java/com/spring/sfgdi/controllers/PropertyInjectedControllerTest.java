@@ -1,9 +1,10 @@
 package com.spring.sfgdi.controllers;
 
+import avirup.spring.sfgdi.controllers.PropertyInjectedController;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import com.spring.sfgdi.services.ConstructorGreetingService;
+import avirup.spring.sfgdi.services.ConstructorGreetingService;
 
 public class PropertyInjectedControllerTest {
     PropertyInjectedController controller;

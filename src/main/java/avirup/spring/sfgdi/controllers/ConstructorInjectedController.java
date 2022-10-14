@@ -1,16 +1,16 @@
-package com.spring.sfgdi.controllers;
+package avirup.spring.sfgdi.controllers;
 
-import com.spring.sfgdi.services.GreetingService;
+import avirup.spring.sfgdi.services.GreetingService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Controller;
 
 @Controller
-public class SetterInjectedController {
+public class ConstructorInjectedController {
     private GreetingService greetingService;
-    @Qualifier("setterInjectedGreetingService")
-    @Autowired
-    public void setGreetingService(GreetingService greetingService) {
+
+    @Autowired // Optional after Spring 4.2
+    public ConstructorInjectedController(@Qualifier("constructorGreetingService") GreetingService greetingService) {
         this.greetingService = greetingService;
     }
 

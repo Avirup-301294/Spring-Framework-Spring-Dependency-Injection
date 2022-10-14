@@ -1,4 +1,4 @@
-package com.spring.sfgdi.services;
+package avirup.spring.sfgdi.services;
 
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.*;

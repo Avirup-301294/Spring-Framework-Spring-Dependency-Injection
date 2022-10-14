@@ -1,4 +1,4 @@
-package com.spring.sfgdi.repositories;
+package avirup.spring.sfgdi.repositories;
 
 public class EnglishGreetingRepositoryImpl implements EnglishGreetingRepository{
     @Override

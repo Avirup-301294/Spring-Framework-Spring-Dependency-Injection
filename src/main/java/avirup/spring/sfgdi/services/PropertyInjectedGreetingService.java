@@ -1,7 +1,4 @@
-package com.spring.sfgdi.services;
-
-import org.springframework.beans.factory.annotation.Qualifier;
-import org.springframework.stereotype.Service;
+package avirup.spring.sfgdi.services;
 
 // @Service
 public class PropertyInjectedGreetingService implements GreetingService{

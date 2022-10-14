@@ -1,10 +1,10 @@
-package com.spring.sfgdi;
+package avirup.spring.sfgdi;
 
-import com.spring.sfgdi.controllers.*;
+import avirup.spring.sfgdi.controllers.*;
+import avirup.spring.sfgdi.controllers.*;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
-import org.springframework.context.annotation.ComponentScan;
 
 //@ComponentScan(basePackages = {"com.spring.sfgdi", "com.spring.pets"})
 @SpringBootApplication

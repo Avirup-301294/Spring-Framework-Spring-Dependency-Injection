@@ -1,4 +1,4 @@
-package com.spring.sfgdi.controllers;
+package avirup.spring.sfgdi.controllers;
 
 import com.spring.pets.PetService;
 import org.springframework.stereotype.Controller;

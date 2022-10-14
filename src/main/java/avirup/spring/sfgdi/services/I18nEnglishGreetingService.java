@@ -1,9 +1,6 @@
-package com.spring.sfgdi.services;
+package avirup.spring.sfgdi.services;
 
-import com.spring.sfgdi.repositories.EnglishGreetingRepository;
-import org.springframework.context.annotation.Primary;
-import org.springframework.context.annotation.Profile;
-import org.springframework.stereotype.Service;
+import avirup.spring.sfgdi.repositories.EnglishGreetingRepository;
 
 //@Profile("EN") // Default profile don't need to explicitly mentioned in application.properties
 //@Service("i18nService")
